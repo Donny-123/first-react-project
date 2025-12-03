@@ -6,6 +6,7 @@ export default function App() {
   const [, setMyboleean] = useState(false);
 
   const handlesubmit = () => {
+
     console.log();
     console.log(email, password);
     setMyboleean(true);
@@ -46,6 +47,7 @@ export default function App() {
           Login
         </button>
       </div>
+      <div className="Terms">By signing up, agree to our privacy policy and terms of service</div>
     </div>
   );
 }
